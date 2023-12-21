@@ -1,0 +1,2911 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ch-vacd-swissmedic-cs",
+  "meta": {
+    "source": "http://myvaccines.ch"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">683<a name=\"ch-vacd-swissmedic-cs-683\"> </a></td><td>FSME-Immun 0.25 ml Junior</td><td>FSME-Immun CC, Suspension zur intramuskulären Injektion\tPfizer AG</td></tr><tr><td style=\"white-space:nowrap\">450<a name=\"ch-vacd-swissmedic-cs-450\"> </a></td><td>FSME-Immun CC</td><td/></tr><tr><td style=\"white-space:nowrap\">656<a name=\"ch-vacd-swissmedic-cs-656\"> </a></td><td>NeisVac-C</td><td>NeisVac-C, Injektionssuspension\tPfizer AG</td></tr><tr><td style=\"white-space:nowrap\">627<a name=\"ch-vacd-swissmedic-cs-627\"> </a></td><td>Encepur N</td><td>Encepur N Kinder, Injektionssuspension\tBavarian Nordic Switzerland AG</td></tr><tr><td style=\"white-space:nowrap\">628<a name=\"ch-vacd-swissmedic-cs-628\"> </a></td><td>Encepur N Kinder / Enfants</td><td/></tr><tr><td style=\"white-space:nowrap\">572<a name=\"ch-vacd-swissmedic-cs-572\"> </a></td><td>Epaxal</td><td/></tr><tr><td style=\"white-space:nowrap\">544<a name=\"ch-vacd-swissmedic-cs-544\"> </a></td><td>Heprecomb</td><td/></tr><tr><td style=\"white-space:nowrap\">642<a name=\"ch-vacd-swissmedic-cs-642\"> </a></td><td>Heprecomb Kinder</td><td/></tr><tr><td style=\"white-space:nowrap\">614<a name=\"ch-vacd-swissmedic-cs-614\"> </a></td><td>Inflexal V</td><td/></tr><tr><td style=\"white-space:nowrap\">657<a name=\"ch-vacd-swissmedic-cs-657\"> </a></td><td>Menjugate</td><td/></tr><tr><td style=\"white-space:nowrap\">533<a name=\"ch-vacd-swissmedic-cs-533\"> </a></td><td>Moraten</td><td/></tr><tr><td style=\"white-space:nowrap\">555<a name=\"ch-vacd-swissmedic-cs-555\"> </a></td><td>Orochol</td><td/></tr><tr><td style=\"white-space:nowrap\">685<a name=\"ch-vacd-swissmedic-cs-685\"> </a></td><td>Rabipur</td><td/></tr><tr><td style=\"white-space:nowrap\">702<a name=\"ch-vacd-swissmedic-cs-702\"> </a></td><td>Td-pur</td><td/></tr><tr><td style=\"white-space:nowrap\">686<a name=\"ch-vacd-swissmedic-cs-686\"> </a></td><td>Td-Virelon</td><td/></tr><tr><td style=\"white-space:nowrap\">467<a name=\"ch-vacd-swissmedic-cs-467\"> </a></td><td>Vivotif</td><td/></tr><tr><td style=\"white-space:nowrap\">637<a name=\"ch-vacd-swissmedic-cs-637\"> </a></td><td>Boostrix</td><td/></tr><tr><td style=\"white-space:nowrap\">681<a name=\"ch-vacd-swissmedic-cs-681\"> </a></td><td>Boostrix Polio</td><td/></tr><tr><td style=\"white-space:nowrap\">567<a name=\"ch-vacd-swissmedic-cs-567\"> </a></td><td>Ditanrix</td><td/></tr><tr><td style=\"white-space:nowrap\">551<a name=\"ch-vacd-swissmedic-cs-551\"> </a></td><td>Engerix-B 10</td><td>Engerix-B 10, Injektionssuspension\tGlaxoSmithKline AG</td></tr><tr><td style=\"white-space:nowrap\">534<a name=\"ch-vacd-swissmedic-cs-534\"> </a></td><td>Engerix-B 20</td><td>Engerix-B 20, Injektionssuspension\tGlaxoSmithKline AG</td></tr><tr><td style=\"white-space:nowrap\">583<a name=\"ch-vacd-swissmedic-cs-583\"> </a></td><td>Fluarix</td><td/></tr><tr><td style=\"white-space:nowrap\">558<a name=\"ch-vacd-swissmedic-cs-558\"> </a></td><td>Havrix 1440</td><td/></tr><tr><td style=\"white-space:nowrap\">599<a name=\"ch-vacd-swissmedic-cs-599\"> </a></td><td>Havrix 720</td><td/></tr><tr><td style=\"white-space:nowrap\">603<a name=\"ch-vacd-swissmedic-cs-603\"> </a></td><td>Hiberix</td><td/></tr><tr><td style=\"white-space:nowrap\">638<a name=\"ch-vacd-swissmedic-cs-638\"> </a></td><td>Infanrix DTPa-IPV</td><td/></tr><tr><td style=\"white-space:nowrap\">619<a name=\"ch-vacd-swissmedic-cs-619\"> </a></td><td>Infanrix DTPa-IPV+Hib</td><td/></tr><tr><td style=\"white-space:nowrap\">640<a name=\"ch-vacd-swissmedic-cs-640\"> </a></td><td>Infanrix hexa</td><td/></tr><tr><td style=\"white-space:nowrap\">652<a name=\"ch-vacd-swissmedic-cs-652\"> </a></td><td>Mencevax ACWY</td><td/></tr><tr><td style=\"white-space:nowrap\">669<a name=\"ch-vacd-swissmedic-cs-669\"> </a></td><td>Poliorix</td><td/></tr><tr><td style=\"white-space:nowrap\">615<a name=\"ch-vacd-swissmedic-cs-615\"> </a></td><td>Priorix</td><td>Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung\tGlaxoSmithKline AG\tB\t22.12.1998\t22.12.1998\t21.12.2023\tJ07BD52</td></tr><tr><td style=\"white-space:nowrap\">592<a name=\"ch-vacd-swissmedic-cs-592\"> </a></td><td>Twinrix 720/20</td><td/></tr><tr><td style=\"white-space:nowrap\">585<a name=\"ch-vacd-swissmedic-cs-585\"> </a></td><td>Varilrix</td><td/></tr><tr><td style=\"white-space:nowrap\">528<a name=\"ch-vacd-swissmedic-cs-528\"> </a></td><td>Gen H-B-Vax 10</td><td/></tr><tr><td style=\"white-space:nowrap\">545<a name=\"ch-vacd-swissmedic-cs-545\"> </a></td><td>HBVAXPRO 40</td><td/></tr><tr><td style=\"white-space:nowrap\">610<a name=\"ch-vacd-swissmedic-cs-610\"> </a></td><td>Gen H-B-Vax 5</td><td/></tr><tr><td style=\"white-space:nowrap\">663<a name=\"ch-vacd-swissmedic-cs-663\"> </a></td><td>HBVAXPRO 10</td><td>HBVAXPRO 10, Injektionssuspension\tMSD Merck Sharp &amp; Dohme AG</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"ch-vacd-swissmedic-cs-268\"> </a></td><td>MMR-II</td><td/></tr><tr><td style=\"white-space:nowrap\">247<a name=\"ch-vacd-swissmedic-cs-247\"> </a></td><td>Mumpsvax</td><td/></tr><tr><td style=\"white-space:nowrap\">373<a name=\"ch-vacd-swissmedic-cs-373\"> </a></td><td>Mutagrip</td><td/></tr><tr><td style=\"white-space:nowrap\">613<a name=\"ch-vacd-swissmedic-cs-613\"> </a></td><td>Pentavac</td><td/></tr><tr><td style=\"white-space:nowrap\">509<a name=\"ch-vacd-swissmedic-cs-509\"> </a></td><td>Pneumovax-23</td><td>Pneumovax-23, Injektionslösung in einer Fertigspritze\tMSD Merck Sharp &amp; Dohme AG</td></tr><tr><td style=\"white-space:nowrap\">646<a name=\"ch-vacd-swissmedic-cs-646\"> </a></td><td>Revaxis</td><td/></tr><tr><td style=\"white-space:nowrap\">520<a name=\"ch-vacd-swissmedic-cs-520\"> </a></td><td>Stamaril</td><td/></tr><tr><td style=\"white-space:nowrap\">612<a name=\"ch-vacd-swissmedic-cs-612\"> </a></td><td>Tetravac</td><td/></tr><tr><td style=\"white-space:nowrap\">417<a name=\"ch-vacd-swissmedic-cs-417\"> </a></td><td>Tollwut Impfstoff Mérieux</td><td/></tr><tr><td style=\"white-space:nowrap\">688<a name=\"ch-vacd-swissmedic-cs-688\"> </a></td><td>Varivax</td><td/></tr><tr><td style=\"white-space:nowrap\">485<a name=\"ch-vacd-swissmedic-cs-485\"> </a></td><td>Influvac</td><td/></tr><tr><td style=\"white-space:nowrap\">660<a name=\"ch-vacd-swissmedic-cs-660\"> </a></td><td>Influvac plus</td><td/></tr><tr><td style=\"white-space:nowrap\">654<a name=\"ch-vacd-swissmedic-cs-654\"> </a></td><td>Meningitec</td><td/></tr><tr><td style=\"white-space:nowrap\">643<a name=\"ch-vacd-swissmedic-cs-643\"> </a></td><td>Prevenar-7</td><td/></tr><tr><td style=\"white-space:nowrap\">644<a name=\"ch-vacd-swissmedic-cs-644\"> </a></td><td>Hexavac</td><td/></tr><tr><td style=\"white-space:nowrap\">711<a name=\"ch-vacd-swissmedic-cs-711\"> </a></td><td>DiTe pediatric adsorbed</td><td/></tr><tr><td style=\"white-space:nowrap\">711-01<a name=\"ch-vacd-swissmedic-cs-711-01\"> </a></td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren</td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH</td></tr><tr><td style=\"white-space:nowrap\">711-02<a name=\"ch-vacd-swissmedic-cs-711-02\"> </a></td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren</td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH</td></tr><tr><td style=\"white-space:nowrap\">704<a name=\"ch-vacd-swissmedic-cs-704\"> </a></td><td>Dukoral</td><td/></tr><tr><td style=\"white-space:nowrap\">483<a name=\"ch-vacd-swissmedic-cs-483\"> </a></td><td>Rimevax</td><td/></tr><tr><td style=\"white-space:nowrap\">707<a name=\"ch-vacd-swissmedic-cs-707\"> </a></td><td>Tetanol pur</td><td/></tr><tr><td style=\"white-space:nowrap\">57735<a name=\"ch-vacd-swissmedic-cs-57735\"> </a></td><td>Gardasil</td><td/></tr><tr><td style=\"white-space:nowrap\">709<a name=\"ch-vacd-swissmedic-cs-709\"> </a></td><td>Zostavax</td><td/></tr><tr><td style=\"white-space:nowrap\">58158<a name=\"ch-vacd-swissmedic-cs-58158\"> </a></td><td>Priorix-Tetra</td><td/></tr><tr><td style=\"white-space:nowrap\">696<a name=\"ch-vacd-swissmedic-cs-696\"> </a></td><td>BCG SSI</td><td/></tr><tr><td style=\"white-space:nowrap\">58317<a name=\"ch-vacd-swissmedic-cs-58317\"> </a></td><td>Fluad</td><td/></tr><tr><td style=\"white-space:nowrap\">60150<a name=\"ch-vacd-swissmedic-cs-60150\"> </a></td><td>Rotarix</td><td/></tr><tr><td style=\"white-space:nowrap\">703<a name=\"ch-vacd-swissmedic-cs-703\"> </a></td><td>M-M-RVAXPRO</td><td>M-M-RVAXPRO, Lyophilisat und Lösungsmittel\tMSD Merck Sharp &amp; Dohme AG\tB\t13.02.2007\t13.02.2007\tunbegrenzt\tJ07BD52</td></tr><tr><td style=\"white-space:nowrap\">58506<a name=\"ch-vacd-swissmedic-cs-58506\"> </a></td><td>Measles vaccine live</td><td/></tr><tr><td style=\"white-space:nowrap\">59267<a name=\"ch-vacd-swissmedic-cs-59267\"> </a></td><td>Agrippal</td><td/></tr><tr><td style=\"white-space:nowrap\">58271<a name=\"ch-vacd-swissmedic-cs-58271\"> </a></td><td>Optaflu</td><td/></tr><tr><td style=\"white-space:nowrap\">57814<a name=\"ch-vacd-swissmedic-cs-57814\"> </a></td><td>Cervarix</td><td/></tr><tr><td style=\"white-space:nowrap\">60129<a name=\"ch-vacd-swissmedic-cs-60129\"> </a></td><td>Prevenar 13</td><td>Prevenar 13, Injektionssuspension in einer Fertigspritze\tPfizer AG</td></tr><tr><td style=\"white-space:nowrap\">59147<a name=\"ch-vacd-swissmedic-cs-59147\"> </a></td><td>Ixiaro</td><td/></tr><tr><td style=\"white-space:nowrap\">62502<a name=\"ch-vacd-swissmedic-cs-62502\"> </a></td><td>Menveo</td><td/></tr><tr><td style=\"white-space:nowrap\">600<a name=\"ch-vacd-swissmedic-cs-600\"> </a></td><td>DiTe Anatoxal Erwachsene / Adultes</td><td/></tr><tr><td style=\"white-space:nowrap\">690<a name=\"ch-vacd-swissmedic-cs-690\"> </a></td><td>DiTe Anatoxal N Erwachsene / Adultes</td><td/></tr><tr><td style=\"white-space:nowrap\">689<a name=\"ch-vacd-swissmedic-cs-689\"> </a></td><td>Te Anatoxal N</td><td/></tr><tr><td style=\"white-space:nowrap\">62961<a name=\"ch-vacd-swissmedic-cs-62961\"> </a></td><td>Fluarix Tetra</td><td/></tr><tr><td style=\"white-space:nowrap\">66037<a name=\"ch-vacd-swissmedic-cs-66037\"> </a></td><td>Menjugate liquid</td><td/></tr><tr><td style=\"white-space:nowrap\">699<a name=\"ch-vacd-swissmedic-cs-699\"> </a></td><td>ProQuad</td><td>ProQuad, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension, MSD Merck Sharp &amp; Dohme AG</td></tr><tr><td style=\"white-space:nowrap\">65387<a name=\"ch-vacd-swissmedic-cs-65387\"> </a></td><td>Gardasil 9</td><td/></tr><tr><td style=\"white-space:nowrap\">66940<a name=\"ch-vacd-swissmedic-cs-66940\"> </a></td><td>Vaxelis</td><td/></tr><tr><td style=\"white-space:nowrap\">65730<a name=\"ch-vacd-swissmedic-cs-65730\"> </a></td><td>Bexsero</td><td>Bexsero, Injektionssuspension\tGlaxoSmithKline AG</td></tr><tr><td style=\"white-space:nowrap\">68087<a name=\"ch-vacd-swissmedic-cs-68087\"> </a></td><td>Influvac Tetra</td><td>Influvac Tetra 0.5 ml, Injektionssuspension\tMylan Pharma GmbH</td></tr><tr><td style=\"white-space:nowrap\">66427<a name=\"ch-vacd-swissmedic-cs-66427\"> </a></td><td>VaxigripTetra</td><td>VaxigripTetra, Suspension pour injection dans une seringue pré-remplie\tSanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">68267<a name=\"ch-vacd-swissmedic-cs-68267\"> </a></td><td>Spikevax (COVID-19 Vaccine, Moderna)</td><td>Spikevax, Injektionsdispersion\tModerna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">68225<a name=\"ch-vacd-swissmedic-cs-68225\"> </a></td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td><td>Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion\tPfizer AG</td></tr><tr><td style=\"white-space:nowrap\">68235<a name=\"ch-vacd-swissmedic-cs-68235\"> </a></td><td>COVID-19 Vaccine Janssen</td><td>COVID-19 Vaccine Janssen, Injektionssuspension\tJanssen-Cilag AG</td></tr><tr><td style=\"white-space:nowrap\">67482<a name=\"ch-vacd-swissmedic-cs-67482\"> </a></td><td>Flucelvax Tetra</td><td>Flucelvax Tetra, Injektionssuspension\tMedius AG</td></tr><tr><td style=\"white-space:nowrap\">67704<a name=\"ch-vacd-swissmedic-cs-67704\"> </a></td><td>Efluelda 0.7 ml</td><td>Efluelda 0.7 ml, suspension injectable en seringue préremplie\tSanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">67987<a name=\"ch-vacd-swissmedic-cs-67987\"> </a></td><td>Shingrix</td><td>Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension\tGlaxoSmithKline AG</td></tr><tr><td style=\"white-space:nowrap\">68003<a name=\"ch-vacd-swissmedic-cs-68003\"> </a></td><td>Supemtek 0.5 ml</td><td>Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie\tSanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">66161<a name=\"ch-vacd-swissmedic-cs-66161\"> </a></td><td>Foclivia (Durchstechflasche)</td><td>Foclivia, Injektionssuspension in einer Durchstechflasche\tEmergent BioSolutions Berna GmbH</td></tr><tr><td style=\"white-space:nowrap\">66156<a name=\"ch-vacd-swissmedic-cs-66156\"> </a></td><td>Foclivia (Fertigspritze)</td><td>Foclivia, Injektionssuspension in einer Fertigspritze\tEmergent BioSolutions Berna GmbH</td></tr><tr><td style=\"white-space:nowrap\">68473<a name=\"ch-vacd-swissmedic-cs-68473\"> </a></td><td>Nuvaxovid 5 ml</td><td>Nuvaxovid 5 ml\tFuture Health Pharma GmbH</td></tr><tr><td style=\"white-space:nowrap\">68358<a name=\"ch-vacd-swissmedic-cs-68358\"> </a></td><td>Ervebo, Injektionslösung</td><td>Ervebo, Injektionslösung, MSD Merck Sharp &amp; Dohme AG</td></tr><tr><td style=\"white-space:nowrap\">68710-01<a name=\"ch-vacd-swissmedic-cs-68710-01\"> </a></td><td>Comirnaty® 30 Mikrogramm/Dosis</td><td>Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion für Personen ab 12 Jahren, Pfizer AG</td></tr><tr><td style=\"white-space:nowrap\">68710-02<a name=\"ch-vacd-swissmedic-cs-68710-02\"> </a></td><td>Comirnaty® 10 Mikrogramm/Dosis</td><td>Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion, Pfizer AG</td></tr><tr><td style=\"white-space:nowrap\">68462<a name=\"ch-vacd-swissmedic-cs-68462\"> </a></td><td>Fluenz Tetra</td><td>Fluenz Tetra, Nasenspray, Suspension, AstraZeneca AG</td></tr><tr><td style=\"white-space:nowrap\">69009<a name=\"ch-vacd-swissmedic-cs-69009\"> </a></td><td>Spikevax Bivalent Original / Omicron</td><td>Spikevax Bivalent Original / Omicron, Moderna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">68110<a name=\"ch-vacd-swissmedic-cs-68110\"> </a></td><td>Adacel-Polio 0.5 ml</td><td>Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">68317<a name=\"ch-vacd-swissmedic-cs-68317\"> </a></td><td>Adacel 0.5 ml</td><td>Adacel 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">68221<a name=\"ch-vacd-swissmedic-cs-68221\"> </a></td><td>MenQuadfi</td><td>MenQuadfi, solution injectable, Sanofi-Aventis (Suisse) SA</td></tr><tr><td style=\"white-space:nowrap\">69123<a name=\"ch-vacd-swissmedic-cs-69123\"> </a></td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze, Moderna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">69010<a name=\"ch-vacd-swissmedic-cs-69010\"> </a></td><td>Spikevax, Fertigspritze</td><td>Spikevax, Fertigspritze,\tModerna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">69047<a name=\"ch-vacd-swissmedic-cs-69047\"> </a></td><td>Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis, gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren, Pfizer AG</td></tr><tr><td style=\"white-space:nowrap\">69127<a name=\"ch-vacd-swissmedic-cs-69127\"> </a></td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion,\tPfizer AG</td></tr><tr><td style=\"white-space:nowrap\">69189<a name=\"ch-vacd-swissmedic-cs-69189\"> </a></td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection,\tModerna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">69211<a name=\"ch-vacd-swissmedic-cs-69211\"> </a></td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze,\tModerna Switzerland GmbH</td></tr><tr><td style=\"white-space:nowrap\">68752<a name=\"ch-vacd-swissmedic-cs-68752\"> </a></td><td>Vaxneuvance, Injektionssuspension</td><td>Vaxneuvance, Injektionssuspension,\tMSD Merck Sharp &amp; Dohme AG</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Schweiz) (German (Switzerland), de)</b></td><td><b>English (United States) (English (United States), en)</b></td><td><b>French (Switzerland) (fr)</b></td><td><b>Italian (Switzerland) (it)</b></td><td><b>rm</b></td></tr><tr><td>683</td><td>FSME-Immun 0.25 ml Junior</td><td>FSME-Immun 0.25 ml Junior</td><td>FSME-Immun 0.25 ml Junior</td><td>FSME-Immun 0.25 ml Junior</td><td>FSME-Immun 0.25 ml Junior</td></tr><tr><td>450</td><td>FSME-Immun CC</td><td>FSME-Immun CC</td><td>FSME-Immun CC</td><td>FSME-Immun CC</td><td>FSME-Immun CC</td></tr><tr><td>656</td><td>NeisVac-C</td><td>NeisVac-C</td><td>NeisVac-C</td><td>NeisVac-C</td><td>NeisVac-C</td></tr><tr><td>627</td><td>Encepur N</td><td>Encepur N</td><td>Encepur N</td><td>Encepur N</td><td>Encepur N</td></tr><tr><td>628</td><td>Encepur N Kinder</td><td>Encepur N childrean</td><td>Encepur N enfants</td><td>Encepur N bambini</td><td>Encepur N uffants</td></tr><tr><td>572</td><td>Epaxal</td><td>Epaxal</td><td>Epaxal</td><td>Epaxal</td><td>Epaxal</td></tr><tr><td>544</td><td>Heprecomb</td><td>Heprecomb</td><td>Heprecomb</td><td>Heprecomb</td><td>Heprecomb</td></tr><tr><td>642</td><td>Heprecomb Kinder</td><td>Heprecomb childrean</td><td>Heprecomb enfants</td><td>Heprecomb bambini</td><td>Heprecomb uffants</td></tr><tr><td>614</td><td>Inflexal V</td><td>Inflexal V</td><td>Inflexal V</td><td>Inflexal V</td><td>Inflexal V</td></tr><tr><td>657</td><td>Menjugate</td><td>Menjugate</td><td>Menjugate</td><td>Menjugate</td><td>Menjugate</td></tr><tr><td>533</td><td>Moraten</td><td>Moraten</td><td>Moraten</td><td>Moraten</td><td>Moraten</td></tr><tr><td>555</td><td>Orochol</td><td>Orochol</td><td>Orochol</td><td>Orochol</td><td>Orochol</td></tr><tr><td>685</td><td>Rabipur</td><td>Rabipur</td><td>Rabipur</td><td>Rabipur</td><td>Rabipur</td></tr><tr><td>702</td><td>Td-pur</td><td>Td-pur</td><td>Td-pur</td><td>Td-pur</td><td>Td-pur</td></tr><tr><td>686</td><td>Td-Virelon</td><td>Td-Virelon</td><td>Td-Virelon</td><td>Td-Virelon</td><td>Td-Virelon</td></tr><tr><td>467</td><td>Vivotif</td><td>Vivotif</td><td>Vivotif</td><td>Vivotif</td><td>Vivotif</td></tr><tr><td>637</td><td>Boostrix</td><td>Boostrix</td><td>Boostrix</td><td>Boostrix</td><td>Boostrix</td></tr><tr><td>681</td><td>Boostrix Polio</td><td>Boostrix Polio</td><td>Boostrix Polio</td><td>Boostrix Polio</td><td>Boostrix Polio</td></tr><tr><td>567</td><td>Ditanrix</td><td>Ditanrix</td><td>Ditanrix</td><td>Ditanrix</td><td>Ditanrix</td></tr><tr><td>551</td><td>Engerix-B 10</td><td>Engerix-B 10</td><td>Engerix-B 10</td><td>Engerix-B 10</td><td>Engerix-B 10</td></tr><tr><td>534</td><td>Engerix-B 20</td><td>Engerix-B 20</td><td>Engerix-B 20</td><td>Engerix-B 20</td><td>Engerix-B 20</td></tr><tr><td>583</td><td>Fluarix</td><td>Fluarix</td><td>Fluarix</td><td>Fluarix</td><td>Fluarix</td></tr><tr><td>558</td><td>Havrix 1440</td><td>Havrix 1440</td><td>Havrix 1440</td><td>Havrix 1440</td><td>Havrix 1440</td></tr><tr><td>599</td><td>Havrix 720</td><td>Havrix 720</td><td>Havrix 720</td><td>Havrix 720</td><td>Havrix 720</td></tr><tr><td>603</td><td>Hiberix</td><td>Hiberix</td><td>Hiberix</td><td>Hiberix</td><td>Hiberix</td></tr><tr><td>638</td><td>Infanrix DTPa-IPV</td><td>Infanrix DTPa-IPV</td><td>Infanrix DTPa-IPV</td><td>Infanrix DTPa-IPV</td><td>Infanrix DTPa-IPV</td></tr><tr><td>619</td><td>Infanrix DTPa-IPV+Hib</td><td>Infanrix DTPa-IPV+Hib</td><td>Infanrix DTPa-IPV+Hib</td><td>Infanrix DTPa-IPV+Hib</td><td>Infanrix DTPa-IPV+Hib</td></tr><tr><td>640</td><td>Infanrix hexa</td><td>Infanrix hexa</td><td>Infanrix hexa</td><td>Infanrix hexa</td><td>Infanrix hexa</td></tr><tr><td>652</td><td>Mencevax ACWY</td><td>Mencevax ACWY</td><td>Mencevax ACWY</td><td>Mencevax ACWY</td><td>Mencevax ACWY</td></tr><tr><td>669</td><td>Poliorix</td><td>Poliorix</td><td>Poliorix</td><td>Poliorix</td><td>Poliorix</td></tr><tr><td>615</td><td>Priorix</td><td>Priorix</td><td>Priorix</td><td>Priorix</td><td>Priorix</td></tr><tr><td>592</td><td>Twinrix 720/20</td><td>Twinrix 720/20</td><td>Twinrix 720/20</td><td>Twinrix 720/20</td><td>Twinrix 720/20</td></tr><tr><td>585</td><td>Varilrix</td><td>Varilrix</td><td>Varilrix</td><td>Varilrix</td><td>Varilrix</td></tr><tr><td>528</td><td>Gen H-B-Vax 10</td><td>Gen H-B-Vax 10</td><td>Gen H-B-Vax 10</td><td>Gen H-B-Vax 10</td><td>Gen H-B-Vax 10</td></tr><tr><td>545</td><td>HBVAXPRO 40</td><td>HBVAXPRO 40</td><td>HBVAXPRO 40</td><td>HBVAXPRO 40</td><td>HBVAXPRO 40</td></tr><tr><td>610</td><td>Gen H-B-Vax 5</td><td>Gen H-B-Vax 5</td><td>Gen H-B-Vax 5</td><td>Gen H-B-Vax 5</td><td>Gen H-B-Vax 5</td></tr><tr><td>663</td><td>HBVAXPRO 10</td><td>HBVAXPRO 10</td><td>HBVAXPRO 10</td><td>HBVAXPRO 10</td><td>HBVAXPRO 10</td></tr><tr><td>268</td><td>MMR-II</td><td>MMR-II</td><td>MMR-II</td><td>MMR-II</td><td>MMR-II</td></tr><tr><td>247</td><td>Mumpsvax</td><td>Mumpsvax</td><td>Mumpsvax</td><td>Mumpsvax</td><td>Mumpsvax</td></tr><tr><td>373</td><td>Mutagrip</td><td>Mutagrip</td><td>Mutagrip</td><td>Mutagrip</td><td>Mutagrip</td></tr><tr><td>613</td><td>Pentavac</td><td>Pentavac</td><td>Pentavac</td><td>Pentavac</td><td>Pentavac</td></tr><tr><td>509</td><td>Pneumovax-23</td><td>Pneumovax-23</td><td>Pneumovax-23</td><td>Pneumovax-23</td><td>Pneumovax-23</td></tr><tr><td>646</td><td>Revaxis</td><td>Revaxis</td><td>Revaxis</td><td>Revaxis</td><td>Revaxis</td></tr><tr><td>520</td><td>Stamaril</td><td>Stamaril</td><td>Stamaril</td><td>Stamaril</td><td>Stamaril</td></tr><tr><td>612</td><td>Tetravac</td><td>Tetravac</td><td>Tetravac</td><td>Tetravac</td><td>Tetravac</td></tr><tr><td>417</td><td>Tollwut Impfstoff Mérieux</td><td>Rage vaccine Mérieux</td><td>Rage vaccin Mérieux</td><td>Rabbia vaccino Mérieux</td><td>Frenesia vaccin Mérieux</td></tr><tr><td>688</td><td>Varivax</td><td>Varivax</td><td>Varivax</td><td>Varivax</td><td>Varivax</td></tr><tr><td>485</td><td>Influvac</td><td>Influvac</td><td>Influvac</td><td>Influvac</td><td>Influvac</td></tr><tr><td>660</td><td>Influvac plus</td><td>Influvac plus</td><td>Influvac plus</td><td>Influvac plus</td><td>Influvac plus</td></tr><tr><td>654</td><td>Meningitec</td><td>Meningitec</td><td>Meningitec</td><td>Meningitec</td><td>Meningitec</td></tr><tr><td>643</td><td>Prevenar-7</td><td>Prevenar-7</td><td>Prevenar-7</td><td>Prevenar-7</td><td>Prevenar-7</td></tr><tr><td>644</td><td>Hexavac</td><td>Hexavac</td><td>Hexavac</td><td>Hexavac</td><td>Hexavac</td></tr><tr><td>711</td><td>DiTe pediatric adsorbed</td><td>DiTe pediatric adsorbed</td><td>DiTe pediatric adsorbed</td><td>DiTe pediatric adsorbed</td><td>DiTe pediatric adsorbed</td></tr><tr><td>711-01</td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren</td><td>Diphtheria and tetanus adsorbate vaccine for children under 8 years of age</td><td>Diphtérie- et tétanos-vaccin adsorbant pour les enfants de moins de 8 ans</td><td>Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni</td><td>Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns</td></tr><tr><td>711-02</td><td>Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren</td><td>Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old</td><td>Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans</td><td>Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su</td><td>Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns</td></tr><tr><td>704</td><td>Dukoral</td><td>Dukoral</td><td>Dukoral</td><td>Dukoral</td><td>Dukoral</td></tr><tr><td>483</td><td>Rimevax</td><td>Rimevax</td><td>Rimevax</td><td>Rimevax</td><td>Rimevax</td></tr><tr><td>707</td><td>Tetanol pur</td><td>Tetanol pur</td><td>Tetanol pur</td><td>Tetanol pur</td><td>Tetanol pur</td></tr><tr><td>57735</td><td>Gardasil</td><td>Gardasil</td><td>Gardasil</td><td>Gardasil</td><td>Gardasil</td></tr><tr><td>709</td><td>Zostavax</td><td>Zostavax</td><td>Zostavax</td><td>Zostavax</td><td>Zostavax</td></tr><tr><td>58158</td><td>Priorix-Tetra</td><td>Priorix-Tetra</td><td>Priorix-Tetra</td><td>Priorix-Tetra</td><td>Priorix-Tetra</td></tr><tr><td>696</td><td>BCG SSI</td><td>BCG SSI</td><td>BCG SSI</td><td>BCG SSI</td><td>BCG SSI</td></tr><tr><td>58317</td><td>Fluad</td><td>Fluad</td><td>Fluad</td><td>Fluad</td><td>Fluad</td></tr><tr><td>60150</td><td>Rotarix</td><td>Rotarix</td><td>Rotarix</td><td>Rotarix</td><td>Rotarix</td></tr><tr><td>703</td><td>MMRVaxPro</td><td>MMRVaxPro</td><td>MMRVaxPro</td><td>MMRVaxPro</td><td>MMRVaxPro</td></tr><tr><td>58506</td><td>Measles vaccine live</td><td>Measles vaccine live</td><td>Measles vaccine live</td><td>Measles vaccine live</td><td>Measles vaccine live</td></tr><tr><td>59267</td><td>Agrippal</td><td>Agrippal</td><td>Agrippal</td><td>Agrippal</td><td>Agrippal</td></tr><tr><td>58271</td><td>Optaflu</td><td>Optaflu</td><td>Optaflu</td><td>Optaflu</td><td>Optaflu</td></tr><tr><td>57814</td><td>Cervarix</td><td>Cervarix</td><td>Cervarix</td><td>Cervarix</td><td>Cervarix</td></tr><tr><td>60129</td><td>Prevenar 13</td><td>Prevenar 13</td><td>Prevenar 13</td><td>Prevenar 13</td><td>Prevenar 13</td></tr><tr><td>59147</td><td>Ixiaro</td><td>Ixiaro</td><td>Ixiaro</td><td>Ixiaro</td><td>Ixiaro</td></tr><tr><td>62502</td><td>Menveo</td><td>Menveo</td><td>Menveo</td><td>Menveo</td><td>Menveo</td></tr><tr><td>600</td><td>DiTe Anatoxal Erwachsene</td><td>DiTe Anatoxal adults</td><td>DiTe Anatoxal adultes</td><td>DiTe Anatoxal adulti</td><td>DiTe Anatoxal persunas creschidas</td></tr><tr><td>690</td><td>DiTe Anatoxal N Erwachsene</td><td>DiTe Anatoxal N adults</td><td>DiTe Anatoxal N adultes</td><td>DiTe Anatoxal N adulti</td><td>DiTe Anatoxal N persunas creshidas</td></tr><tr><td>689</td><td>Te Anatoxal N</td><td>Te Anatoxal N</td><td>Te Anatoxal N</td><td>Te Anatoxal N</td><td>Te Anatoxal N</td></tr><tr><td>62961</td><td>Fluarix Tetra</td><td>Fluarix Tetra</td><td>Fluarix Tetra</td><td>Fluarix Tetra</td><td>Fluarix Tetra</td></tr><tr><td>66037</td><td>Menjugate liquid</td><td>Menjugate liquid</td><td>Menjugate liquid</td><td>Menjugate liquid</td><td>Menjugate liquid</td></tr><tr><td>699</td><td>ProQuad</td><td>ProQuad</td><td>ProQuad</td><td>ProQuad</td><td>ProQuad</td></tr><tr><td>65387</td><td>Gardasil 9</td><td>Gardasil 9</td><td>Gardasil 9</td><td>Gardasil 9</td><td>Gardasil 9</td></tr><tr><td>66940</td><td>Vaxelis</td><td>Vaxelis</td><td>Vaxelis</td><td>Vaxelis</td><td>Vaxelis</td></tr><tr><td>65730</td><td>Bexsero</td><td>Bexsero</td><td>Bexsero</td><td>Bexsero</td><td>Bexsero</td></tr><tr><td>68087</td><td>Influvac Tetra</td><td>Influvac Tetra</td><td>Influvac Tetra</td><td>Influvac Tetra</td><td>Influvac Tetra</td></tr><tr><td>66427</td><td>VaxigripTetra</td><td>VaxigripTetra</td><td>VaxigripTetra</td><td>VaxigripTetra</td><td>VaxigripTetra</td></tr><tr><td>68267</td><td>Spikevax (COVID-19 Vaccine, Moderna)</td><td>Spikevax (COVID-19 Vaccine, Moderna)</td><td>Spikevax (COVID-19 Vaccine, Moderna)</td><td>Spikevax (COVID-19 Vaccine, Moderna)</td><td>Spikevax (COVID-19 Vaccine, Moderna)</td></tr><tr><td>68225</td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td><td>Comirnaty (COVID-19 Vaccine, Pfizer)</td></tr><tr><td>68235</td><td>COVID-19 Vaccine Janssen</td><td>COVID-19 Vaccine Janssen</td><td>COVID-19 Vaccine Janssen</td><td>COVID-19 Vaccine Janssen</td><td>COVID-19 Vaccine Janssen</td></tr><tr><td>67482</td><td>Flucelvax Tetra</td><td>Flucelvax Tetra</td><td>Flucelvax Tetra</td><td>Flucelvax Tetra</td><td>Flucelvax Tetra</td></tr><tr><td>67704</td><td>Efluelda 0.7 ml</td><td>Efluelda 0.7 ml</td><td>Efluelda 0.7 ml</td><td>Efluelda 0.7 ml</td><td>Efluelda 0.7 ml</td></tr><tr><td>67987</td><td>Shingrix</td><td>Shingrix</td><td>Shingrix</td><td>Shingrix</td><td>Shingrix</td></tr><tr><td>68003</td><td>Supemtek 0.5 ml</td><td>Supemtek 0.5 ml</td><td>Supemtek 0.5 ml</td><td>Supemtek 0.5 ml</td><td>Supemtek 0.5 ml</td></tr><tr><td>66161</td><td>Foclivia (Durchstechflasche)</td><td>Foclivia (penetration bottle)</td><td>Foclivia (flacon multidoses)</td><td>Foclivia (flacone multidose)</td><td>Foclivia (flacona multidosa)</td></tr><tr><td>66156</td><td>Foclivia (Fertigspritze)</td><td>Foclivia (pre-filled syringe)</td><td>Foclivia (seringue préremplie)</td><td>Foclivia (siringa preriempita)</td><td>Foclivia (siringa prominenta)</td></tr><tr><td>68473</td><td>Nuvaxovid 5 ml</td><td>Nuvaxovid 5 ml</td><td>Nuvaxovid 5 ml</td><td>Nuvaxovid 5 ml</td><td>Nuvaxovid 5 ml</td></tr><tr><td>68358</td><td>Ervebo</td><td>Ervebo</td><td>Ervebo</td><td>Ervebo</td><td>Ervebo</td></tr><tr><td>68710-01</td><td>Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren</td><td>Comirnaty® 30 microgram/dose, for people over 12 years</td><td>Comirnaty® 30 microgrammes/dose, pour les personnes de plus de 12 ans</td><td>Comirnaty® 30 microgrammi/dose, per persone di età superiore ai 12 anni</td><td>Comirnaty® 30 microgram/dosa, per persunas sur 12 onns</td></tr><tr><td>68710-02</td><td>Comirnaty® 10 Mikrogramm/Dosis</td><td>Comirnaty® 10 microgram/dosa</td><td>Comirnaty® 10 microgrammes/dose</td><td>Comirnaty® 10 microgrammi/dose</td><td>Comirnaty® 10 Mikrogramm/Dosis</td></tr><tr><td>68462</td><td>Fluenz Tetra</td><td>Fluenz Tetra</td><td>Fluenz Tetra</td><td>Fluenz Tetra</td><td>Fluenz Tetra</td></tr><tr><td>69009</td><td>Spikevax Bivalent Original / Omicron</td><td>Spikevax Bivalent Original / Omicron</td><td>Spikevax Bivalent Original / Omicron</td><td>Spikevax Bivalent Original / Omicron</td><td>Spikevax Bivalent Original / Omicron</td></tr><tr><td>68110</td><td>Adacel-Polio 0.5 ml</td><td>Adacel-Polio 0.5 ml</td><td>Adacel-Polio 0.5 ml</td><td>Adacel-Polio 0.5 ml</td><td>Adacel-Polio 0.5 ml</td></tr><tr><td>68317</td><td>Adacel 0.5 ml</td><td>Adacel 0.5 ml</td><td>Adacel 0.5 ml</td><td>Adacel 0.5 ml</td><td>Adacel 0.5 ml</td></tr><tr><td>68221</td><td>MenQuadfi</td><td>MenQuadfi</td><td>MenQuadfi</td><td>MenQuadfi</td><td>MenQuadfi</td></tr><tr><td>69123</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, pre-filled syringe</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, seringue préremplie</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, siringa preriempita</td><td>Spikevax Bivalent Original / Omicron 10 mg/ml, squitta finida</td></tr><tr><td>69010</td><td>Spikevax, Fertigspritze</td><td>Spikevax, pre-filled syringe</td><td>Spikevax, seringue préremplie</td><td>Spikevax, siringa preriempita</td><td>Spikevax, squitta finida</td></tr><tr><td>69047</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg per dose</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg par dose</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg per dose</td><td>Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis</td></tr><tr><td>69127</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td><td>Comirnaty Original/Omicron BA. 4-5 0.225 mg</td></tr><tr><td>69189</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td><td>Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection</td></tr><tr><td>69211</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td><td>Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze</td></tr><tr><td>68752</td><td>Vaxneuvance, Injektionssuspension</td><td>Vaxneuvance, Injektionssuspension</td><td>Vaxneuvance, Injektionssuspension</td><td>Vaxneuvance, Injektionssuspension</td><td>Vaxneuvance, Injektionssuspension</td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-01-24T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+      "value": "authorized-vaccines"
+    }
+  ],
+  "version": "4.0.0-ballot",
+  "name": "SwissMedicAuthorizedVaccinesCodesystem",
+  "title": "Swiss Medic Authorized Vaccines Codesystem",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-06-29T17:22:50+02:00",
+  "publisher": "HL7 Switzerland",
+  "contact": [
+    {
+      "name": "HL7 Switzerland",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.hl7.ch/"
+        }
+      ]
+    }
+  ],
+  "description": "The vaccines swissmedic has given an autorization number.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "CHE"
+        }
+      ]
+    }
+  ],
+  "copyright": "CC0-1.0",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 108,
+  "concept": [
+    {
+      "code": "683",
+      "display": "FSME-Immun 0.25 ml Junior",
+      "definition": "FSME-Immun CC, Suspension zur intramuskulären Injektion\tPfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "FSME-Immun 0.25 ml Junior"
+        },
+        {
+          "language": "fr-CH",
+          "value": "FSME-Immun 0.25 ml Junior"
+        },
+        {
+          "language": "it-CH",
+          "value": "FSME-Immun 0.25 ml Junior"
+        },
+        {
+          "language": "rm-CH",
+          "value": "FSME-Immun 0.25 ml Junior"
+        },
+        {
+          "language": "en-US",
+          "value": "FSME-Immun 0.25 ml Junior"
+        }
+      ]
+    },
+    {
+      "code": "450",
+      "display": "FSME-Immun CC",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "FSME-Immun CC"
+        },
+        {
+          "language": "fr-CH",
+          "value": "FSME-Immun CC"
+        },
+        {
+          "language": "it-CH",
+          "value": "FSME-Immun CC"
+        },
+        {
+          "language": "rm-CH",
+          "value": "FSME-Immun CC"
+        },
+        {
+          "language": "en-US",
+          "value": "FSME-Immun CC"
+        }
+      ]
+    },
+    {
+      "code": "656",
+      "display": "NeisVac-C",
+      "definition": "NeisVac-C, Injektionssuspension\tPfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "NeisVac-C"
+        },
+        {
+          "language": "fr-CH",
+          "value": "NeisVac-C"
+        },
+        {
+          "language": "it-CH",
+          "value": "NeisVac-C"
+        },
+        {
+          "language": "rm-CH",
+          "value": "NeisVac-C"
+        },
+        {
+          "language": "en-US",
+          "value": "NeisVac-C"
+        }
+      ]
+    },
+    {
+      "code": "627",
+      "display": "Encepur N",
+      "definition": "Encepur N Kinder, Injektionssuspension\tBavarian Nordic Switzerland AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Encepur N"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Encepur N"
+        },
+        {
+          "language": "it-CH",
+          "value": "Encepur N"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Encepur N"
+        },
+        {
+          "language": "en-US",
+          "value": "Encepur N"
+        }
+      ]
+    },
+    {
+      "code": "628",
+      "display": "Encepur N Kinder / Enfants",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Encepur N Kinder"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Encepur N enfants"
+        },
+        {
+          "language": "it-CH",
+          "value": "Encepur N bambini"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Encepur N uffants"
+        },
+        {
+          "language": "en-US",
+          "value": "Encepur N childrean"
+        }
+      ]
+    },
+    {
+      "code": "572",
+      "display": "Epaxal",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Epaxal"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Epaxal"
+        },
+        {
+          "language": "it-CH",
+          "value": "Epaxal"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Epaxal"
+        },
+        {
+          "language": "en-US",
+          "value": "Epaxal"
+        }
+      ]
+    },
+    {
+      "code": "544",
+      "display": "Heprecomb",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Heprecomb"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Heprecomb"
+        },
+        {
+          "language": "it-CH",
+          "value": "Heprecomb"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Heprecomb"
+        },
+        {
+          "language": "en-US",
+          "value": "Heprecomb"
+        }
+      ]
+    },
+    {
+      "code": "642",
+      "display": "Heprecomb Kinder",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Heprecomb Kinder"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Heprecomb enfants"
+        },
+        {
+          "language": "it-CH",
+          "value": "Heprecomb bambini"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Heprecomb uffants"
+        },
+        {
+          "language": "en-US",
+          "value": "Heprecomb childrean"
+        }
+      ]
+    },
+    {
+      "code": "614",
+      "display": "Inflexal V",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Inflexal V"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Inflexal V"
+        },
+        {
+          "language": "it-CH",
+          "value": "Inflexal V"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Inflexal V"
+        },
+        {
+          "language": "en-US",
+          "value": "Inflexal V"
+        }
+      ]
+    },
+    {
+      "code": "657",
+      "display": "Menjugate",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Menjugate"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Menjugate"
+        },
+        {
+          "language": "it-CH",
+          "value": "Menjugate"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Menjugate"
+        },
+        {
+          "language": "en-US",
+          "value": "Menjugate"
+        }
+      ]
+    },
+    {
+      "code": "533",
+      "display": "Moraten",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Moraten"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Moraten"
+        },
+        {
+          "language": "it-CH",
+          "value": "Moraten"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Moraten"
+        },
+        {
+          "language": "en-US",
+          "value": "Moraten"
+        }
+      ]
+    },
+    {
+      "code": "555",
+      "display": "Orochol",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Orochol"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Orochol"
+        },
+        {
+          "language": "it-CH",
+          "value": "Orochol"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Orochol"
+        },
+        {
+          "language": "en-US",
+          "value": "Orochol"
+        }
+      ]
+    },
+    {
+      "code": "685",
+      "display": "Rabipur",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Rabipur"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Rabipur"
+        },
+        {
+          "language": "it-CH",
+          "value": "Rabipur"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Rabipur"
+        },
+        {
+          "language": "en-US",
+          "value": "Rabipur"
+        }
+      ]
+    },
+    {
+      "code": "702",
+      "display": "Td-pur",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Td-pur"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Td-pur"
+        },
+        {
+          "language": "it-CH",
+          "value": "Td-pur"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Td-pur"
+        },
+        {
+          "language": "en-US",
+          "value": "Td-pur"
+        }
+      ]
+    },
+    {
+      "code": "686",
+      "display": "Td-Virelon",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Td-Virelon"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Td-Virelon"
+        },
+        {
+          "language": "it-CH",
+          "value": "Td-Virelon"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Td-Virelon"
+        },
+        {
+          "language": "en-US",
+          "value": "Td-Virelon"
+        }
+      ]
+    },
+    {
+      "code": "467",
+      "display": "Vivotif",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Vivotif"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Vivotif"
+        },
+        {
+          "language": "it-CH",
+          "value": "Vivotif"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Vivotif"
+        },
+        {
+          "language": "en-US",
+          "value": "Vivotif"
+        }
+      ]
+    },
+    {
+      "code": "637",
+      "display": "Boostrix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Boostrix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Boostrix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Boostrix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Boostrix"
+        },
+        {
+          "language": "en-US",
+          "value": "Boostrix"
+        }
+      ]
+    },
+    {
+      "code": "681",
+      "display": "Boostrix Polio",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Boostrix Polio"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Boostrix Polio"
+        },
+        {
+          "language": "it-CH",
+          "value": "Boostrix Polio"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Boostrix Polio"
+        },
+        {
+          "language": "en-US",
+          "value": "Boostrix Polio"
+        }
+      ]
+    },
+    {
+      "code": "567",
+      "display": "Ditanrix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Ditanrix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Ditanrix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Ditanrix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Ditanrix"
+        },
+        {
+          "language": "en-US",
+          "value": "Ditanrix"
+        }
+      ]
+    },
+    {
+      "code": "551",
+      "display": "Engerix-B 10",
+      "definition": "Engerix-B 10, Injektionssuspension\tGlaxoSmithKline AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Engerix-B 10"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Engerix-B 10"
+        },
+        {
+          "language": "it-CH",
+          "value": "Engerix-B 10"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Engerix-B 10"
+        },
+        {
+          "language": "en-US",
+          "value": "Engerix-B 10"
+        }
+      ]
+    },
+    {
+      "code": "534",
+      "display": "Engerix-B 20",
+      "definition": "Engerix-B 20, Injektionssuspension\tGlaxoSmithKline AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Engerix-B 20"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Engerix-B 20"
+        },
+        {
+          "language": "it-CH",
+          "value": "Engerix-B 20"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Engerix-B 20"
+        },
+        {
+          "language": "en-US",
+          "value": "Engerix-B 20"
+        }
+      ]
+    },
+    {
+      "code": "583",
+      "display": "Fluarix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Fluarix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Fluarix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Fluarix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Fluarix"
+        },
+        {
+          "language": "en-US",
+          "value": "Fluarix"
+        }
+      ]
+    },
+    {
+      "code": "558",
+      "display": "Havrix 1440",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Havrix 1440"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Havrix 1440"
+        },
+        {
+          "language": "it-CH",
+          "value": "Havrix 1440"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Havrix 1440"
+        },
+        {
+          "language": "en-US",
+          "value": "Havrix 1440"
+        }
+      ]
+    },
+    {
+      "code": "599",
+      "display": "Havrix 720",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Havrix 720"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Havrix 720"
+        },
+        {
+          "language": "it-CH",
+          "value": "Havrix 720"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Havrix 720"
+        },
+        {
+          "language": "en-US",
+          "value": "Havrix 720"
+        }
+      ]
+    },
+    {
+      "code": "603",
+      "display": "Hiberix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Hiberix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Hiberix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Hiberix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Hiberix"
+        },
+        {
+          "language": "en-US",
+          "value": "Hiberix"
+        }
+      ]
+    },
+    {
+      "code": "638",
+      "display": "Infanrix DTPa-IPV",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Infanrix DTPa-IPV"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Infanrix DTPa-IPV"
+        },
+        {
+          "language": "it-CH",
+          "value": "Infanrix DTPa-IPV"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Infanrix DTPa-IPV"
+        },
+        {
+          "language": "en-US",
+          "value": "Infanrix DTPa-IPV"
+        }
+      ]
+    },
+    {
+      "code": "619",
+      "display": "Infanrix DTPa-IPV+Hib",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Infanrix DTPa-IPV+Hib"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Infanrix DTPa-IPV+Hib"
+        },
+        {
+          "language": "it-CH",
+          "value": "Infanrix DTPa-IPV+Hib"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Infanrix DTPa-IPV+Hib"
+        },
+        {
+          "language": "en-US",
+          "value": "Infanrix DTPa-IPV+Hib"
+        }
+      ]
+    },
+    {
+      "code": "640",
+      "display": "Infanrix hexa",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Infanrix hexa"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Infanrix hexa"
+        },
+        {
+          "language": "it-CH",
+          "value": "Infanrix hexa"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Infanrix hexa"
+        },
+        {
+          "language": "en-US",
+          "value": "Infanrix hexa"
+        }
+      ]
+    },
+    {
+      "code": "652",
+      "display": "Mencevax ACWY",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Mencevax ACWY"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Mencevax ACWY"
+        },
+        {
+          "language": "it-CH",
+          "value": "Mencevax ACWY"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Mencevax ACWY"
+        },
+        {
+          "language": "en-US",
+          "value": "Mencevax ACWY"
+        }
+      ]
+    },
+    {
+      "code": "669",
+      "display": "Poliorix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Poliorix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Poliorix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Poliorix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Poliorix"
+        },
+        {
+          "language": "en-US",
+          "value": "Poliorix"
+        }
+      ]
+    },
+    {
+      "code": "615",
+      "display": "Priorix",
+      "definition": "Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung\tGlaxoSmithKline AG\tB\t22.12.1998\t22.12.1998\t21.12.2023\tJ07BD52",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Priorix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Priorix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Priorix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Priorix"
+        },
+        {
+          "language": "en-US",
+          "value": "Priorix"
+        }
+      ]
+    },
+    {
+      "code": "592",
+      "display": "Twinrix 720/20",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Twinrix 720/20"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Twinrix 720/20"
+        },
+        {
+          "language": "it-CH",
+          "value": "Twinrix 720/20"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Twinrix 720/20"
+        },
+        {
+          "language": "en-US",
+          "value": "Twinrix 720/20"
+        }
+      ]
+    },
+    {
+      "code": "585",
+      "display": "Varilrix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Varilrix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Varilrix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Varilrix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Varilrix"
+        },
+        {
+          "language": "en-US",
+          "value": "Varilrix"
+        }
+      ]
+    },
+    {
+      "code": "528",
+      "display": "Gen H-B-Vax 10",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Gen H-B-Vax 10"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Gen H-B-Vax 10"
+        },
+        {
+          "language": "it-CH",
+          "value": "Gen H-B-Vax 10"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Gen H-B-Vax 10"
+        },
+        {
+          "language": "en-US",
+          "value": "Gen H-B-Vax 10"
+        }
+      ]
+    },
+    {
+      "code": "545",
+      "display": "HBVAXPRO 40",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "HBVAXPRO 40"
+        },
+        {
+          "language": "fr-CH",
+          "value": "HBVAXPRO 40"
+        },
+        {
+          "language": "it-CH",
+          "value": "HBVAXPRO 40"
+        },
+        {
+          "language": "rm-CH",
+          "value": "HBVAXPRO 40"
+        },
+        {
+          "language": "en-US",
+          "value": "HBVAXPRO 40"
+        }
+      ]
+    },
+    {
+      "code": "610",
+      "display": "Gen H-B-Vax 5",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Gen H-B-Vax 5"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Gen H-B-Vax 5"
+        },
+        {
+          "language": "it-CH",
+          "value": "Gen H-B-Vax 5"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Gen H-B-Vax 5"
+        },
+        {
+          "language": "en-US",
+          "value": "Gen H-B-Vax 5"
+        }
+      ]
+    },
+    {
+      "code": "663",
+      "display": "HBVAXPRO 10",
+      "definition": "HBVAXPRO 10, Injektionssuspension\tMSD Merck Sharp & Dohme AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "HBVAXPRO 10"
+        },
+        {
+          "language": "fr-CH",
+          "value": "HBVAXPRO 10"
+        },
+        {
+          "language": "it-CH",
+          "value": "HBVAXPRO 10"
+        },
+        {
+          "language": "rm-CH",
+          "value": "HBVAXPRO 10"
+        },
+        {
+          "language": "en-US",
+          "value": "HBVAXPRO 10"
+        }
+      ]
+    },
+    {
+      "code": "268",
+      "display": "MMR-II",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "MMR-II"
+        },
+        {
+          "language": "fr-CH",
+          "value": "MMR-II"
+        },
+        {
+          "language": "it-CH",
+          "value": "MMR-II"
+        },
+        {
+          "language": "rm-CH",
+          "value": "MMR-II"
+        },
+        {
+          "language": "en-US",
+          "value": "MMR-II"
+        }
+      ]
+    },
+    {
+      "code": "247",
+      "display": "Mumpsvax",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Mumpsvax"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Mumpsvax"
+        },
+        {
+          "language": "it-CH",
+          "value": "Mumpsvax"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Mumpsvax"
+        },
+        {
+          "language": "en-US",
+          "value": "Mumpsvax"
+        }
+      ]
+    },
+    {
+      "code": "373",
+      "display": "Mutagrip",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Mutagrip"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Mutagrip"
+        },
+        {
+          "language": "it-CH",
+          "value": "Mutagrip"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Mutagrip"
+        },
+        {
+          "language": "en-US",
+          "value": "Mutagrip"
+        }
+      ]
+    },
+    {
+      "code": "613",
+      "display": "Pentavac",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Pentavac"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Pentavac"
+        },
+        {
+          "language": "it-CH",
+          "value": "Pentavac"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Pentavac"
+        },
+        {
+          "language": "en-US",
+          "value": "Pentavac"
+        }
+      ]
+    },
+    {
+      "code": "509",
+      "display": "Pneumovax-23",
+      "definition": "Pneumovax-23, Injektionslösung in einer Fertigspritze\tMSD Merck Sharp & Dohme AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Pneumovax-23"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Pneumovax-23"
+        },
+        {
+          "language": "it-CH",
+          "value": "Pneumovax-23"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Pneumovax-23"
+        },
+        {
+          "language": "en-US",
+          "value": "Pneumovax-23"
+        }
+      ]
+    },
+    {
+      "code": "646",
+      "display": "Revaxis",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Revaxis"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Revaxis"
+        },
+        {
+          "language": "it-CH",
+          "value": "Revaxis"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Revaxis"
+        },
+        {
+          "language": "en-US",
+          "value": "Revaxis"
+        }
+      ]
+    },
+    {
+      "code": "520",
+      "display": "Stamaril",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Stamaril"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Stamaril"
+        },
+        {
+          "language": "it-CH",
+          "value": "Stamaril"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Stamaril"
+        },
+        {
+          "language": "en-US",
+          "value": "Stamaril"
+        }
+      ]
+    },
+    {
+      "code": "612",
+      "display": "Tetravac",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Tetravac"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Tetravac"
+        },
+        {
+          "language": "it-CH",
+          "value": "Tetravac"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Tetravac"
+        },
+        {
+          "language": "en-US",
+          "value": "Tetravac"
+        }
+      ]
+    },
+    {
+      "code": "417",
+      "display": "Tollwut Impfstoff Mérieux",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Tollwut Impfstoff Mérieux"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Rage vaccin Mérieux"
+        },
+        {
+          "language": "it-CH",
+          "value": "Rabbia vaccino Mérieux"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Frenesia vaccin Mérieux"
+        },
+        {
+          "language": "en-US",
+          "value": "Rage vaccine Mérieux"
+        }
+      ]
+    },
+    {
+      "code": "688",
+      "display": "Varivax",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Varivax"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Varivax"
+        },
+        {
+          "language": "it-CH",
+          "value": "Varivax"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Varivax"
+        },
+        {
+          "language": "en-US",
+          "value": "Varivax"
+        }
+      ]
+    },
+    {
+      "code": "485",
+      "display": "Influvac",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Influvac"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Influvac"
+        },
+        {
+          "language": "it-CH",
+          "value": "Influvac"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Influvac"
+        },
+        {
+          "language": "en-US",
+          "value": "Influvac"
+        }
+      ]
+    },
+    {
+      "code": "660",
+      "display": "Influvac plus",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Influvac plus"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Influvac plus"
+        },
+        {
+          "language": "it-CH",
+          "value": "Influvac plus"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Influvac plus"
+        },
+        {
+          "language": "en-US",
+          "value": "Influvac plus"
+        }
+      ]
+    },
+    {
+      "code": "654",
+      "display": "Meningitec",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Meningitec"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Meningitec"
+        },
+        {
+          "language": "it-CH",
+          "value": "Meningitec"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Meningitec"
+        },
+        {
+          "language": "en-US",
+          "value": "Meningitec"
+        }
+      ]
+    },
+    {
+      "code": "643",
+      "display": "Prevenar-7",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Prevenar-7"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Prevenar-7"
+        },
+        {
+          "language": "it-CH",
+          "value": "Prevenar-7"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Prevenar-7"
+        },
+        {
+          "language": "en-US",
+          "value": "Prevenar-7"
+        }
+      ]
+    },
+    {
+      "code": "644",
+      "display": "Hexavac",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Hexavac"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Hexavac"
+        },
+        {
+          "language": "it-CH",
+          "value": "Hexavac"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Hexavac"
+        },
+        {
+          "language": "en-US",
+          "value": "Hexavac"
+        }
+      ]
+    },
+    {
+      "code": "711",
+      "display": "DiTe pediatric adsorbed",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "DiTe pediatric adsorbed"
+        },
+        {
+          "language": "fr-CH",
+          "value": "DiTe pediatric adsorbed"
+        },
+        {
+          "language": "it-CH",
+          "value": "DiTe pediatric adsorbed"
+        },
+        {
+          "language": "rm-CH",
+          "value": "DiTe pediatric adsorbed"
+        },
+        {
+          "language": "en-US",
+          "value": "DiTe pediatric adsorbed"
+        }
+      ]
+    },
+    {
+      "code": "711-01",
+      "display": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren",
+      "definition": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Diphtérie- et tétanos-vaccin adsorbant pour les enfants de moins de 8 ans"
+        },
+        {
+          "language": "it-CH",
+          "value": "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
+        },
+        {
+          "language": "en-US",
+          "value": "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
+        }
+      ]
+    },
+    {
+      "code": "711-02",
+      "display": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren",
+      "definition": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
+        },
+        {
+          "language": "it-CH",
+          "value": "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns"
+        },
+        {
+          "language": "en-US",
+          "value": "Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old"
+        }
+      ]
+    },
+    {
+      "code": "704",
+      "display": "Dukoral",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Dukoral"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Dukoral"
+        },
+        {
+          "language": "it-CH",
+          "value": "Dukoral"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Dukoral"
+        },
+        {
+          "language": "en-US",
+          "value": "Dukoral"
+        }
+      ]
+    },
+    {
+      "code": "483",
+      "display": "Rimevax",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Rimevax"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Rimevax"
+        },
+        {
+          "language": "it-CH",
+          "value": "Rimevax"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Rimevax"
+        },
+        {
+          "language": "en-US",
+          "value": "Rimevax"
+        }
+      ]
+    },
+    {
+      "code": "707",
+      "display": "Tetanol pur",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Tetanol pur"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Tetanol pur"
+        },
+        {
+          "language": "it-CH",
+          "value": "Tetanol pur"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Tetanol pur"
+        },
+        {
+          "language": "en-US",
+          "value": "Tetanol pur"
+        }
+      ]
+    },
+    {
+      "code": "57735",
+      "display": "Gardasil",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Gardasil"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Gardasil"
+        },
+        {
+          "language": "it-CH",
+          "value": "Gardasil"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Gardasil"
+        },
+        {
+          "language": "en-US",
+          "value": "Gardasil"
+        }
+      ]
+    },
+    {
+      "code": "709",
+      "display": "Zostavax",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Zostavax"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Zostavax"
+        },
+        {
+          "language": "it-CH",
+          "value": "Zostavax"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Zostavax"
+        },
+        {
+          "language": "en-US",
+          "value": "Zostavax"
+        }
+      ]
+    },
+    {
+      "code": "58158",
+      "display": "Priorix-Tetra",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Priorix-Tetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Priorix-Tetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "Priorix-Tetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Priorix-Tetra"
+        },
+        {
+          "language": "en-US",
+          "value": "Priorix-Tetra"
+        }
+      ]
+    },
+    {
+      "code": "696",
+      "display": "BCG SSI",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "BCG SSI"
+        },
+        {
+          "language": "fr-CH",
+          "value": "BCG SSI"
+        },
+        {
+          "language": "it-CH",
+          "value": "BCG SSI"
+        },
+        {
+          "language": "rm-CH",
+          "value": "BCG SSI"
+        },
+        {
+          "language": "en-US",
+          "value": "BCG SSI"
+        }
+      ]
+    },
+    {
+      "code": "58317",
+      "display": "Fluad",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Fluad"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Fluad"
+        },
+        {
+          "language": "it-CH",
+          "value": "Fluad"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Fluad"
+        },
+        {
+          "language": "en-US",
+          "value": "Fluad"
+        }
+      ]
+    },
+    {
+      "code": "60150",
+      "display": "Rotarix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Rotarix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Rotarix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Rotarix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Rotarix"
+        },
+        {
+          "language": "en-US",
+          "value": "Rotarix"
+        }
+      ]
+    },
+    {
+      "code": "703",
+      "display": "M-M-RVAXPRO",
+      "definition": "M-M-RVAXPRO, Lyophilisat und Lösungsmittel\tMSD Merck Sharp & Dohme AG\tB\t13.02.2007\t13.02.2007\tunbegrenzt\tJ07BD52",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "MMRVaxPro"
+        },
+        {
+          "language": "fr-CH",
+          "value": "MMRVaxPro"
+        },
+        {
+          "language": "it-CH",
+          "value": "MMRVaxPro"
+        },
+        {
+          "language": "rm-CH",
+          "value": "MMRVaxPro"
+        },
+        {
+          "language": "en-US",
+          "value": "MMRVaxPro"
+        }
+      ]
+    },
+    {
+      "code": "58506",
+      "display": "Measles vaccine live",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Measles vaccine live"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Measles vaccine live"
+        },
+        {
+          "language": "it-CH",
+          "value": "Measles vaccine live"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Measles vaccine live"
+        },
+        {
+          "language": "en-US",
+          "value": "Measles vaccine live"
+        }
+      ]
+    },
+    {
+      "code": "59267",
+      "display": "Agrippal",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Agrippal"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Agrippal"
+        },
+        {
+          "language": "it-CH",
+          "value": "Agrippal"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Agrippal"
+        },
+        {
+          "language": "en-US",
+          "value": "Agrippal"
+        }
+      ]
+    },
+    {
+      "code": "58271",
+      "display": "Optaflu",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Optaflu"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Optaflu"
+        },
+        {
+          "language": "it-CH",
+          "value": "Optaflu"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Optaflu"
+        },
+        {
+          "language": "en-US",
+          "value": "Optaflu"
+        }
+      ]
+    },
+    {
+      "code": "57814",
+      "display": "Cervarix",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Cervarix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Cervarix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Cervarix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Cervarix"
+        },
+        {
+          "language": "en-US",
+          "value": "Cervarix"
+        }
+      ]
+    },
+    {
+      "code": "60129",
+      "display": "Prevenar 13",
+      "definition": "Prevenar 13, Injektionssuspension in einer Fertigspritze\tPfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Prevenar 13"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Prevenar 13"
+        },
+        {
+          "language": "it-CH",
+          "value": "Prevenar 13"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Prevenar 13"
+        },
+        {
+          "language": "en-US",
+          "value": "Prevenar 13"
+        }
+      ]
+    },
+    {
+      "code": "59147",
+      "display": "Ixiaro",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Ixiaro"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Ixiaro"
+        },
+        {
+          "language": "it-CH",
+          "value": "Ixiaro"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Ixiaro"
+        },
+        {
+          "language": "en-US",
+          "value": "Ixiaro"
+        }
+      ]
+    },
+    {
+      "code": "62502",
+      "display": "Menveo",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Menveo"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Menveo"
+        },
+        {
+          "language": "it-CH",
+          "value": "Menveo"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Menveo"
+        },
+        {
+          "language": "en-US",
+          "value": "Menveo"
+        }
+      ]
+    },
+    {
+      "code": "600",
+      "display": "DiTe Anatoxal Erwachsene / Adultes",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "DiTe Anatoxal Erwachsene"
+        },
+        {
+          "language": "fr-CH",
+          "value": "DiTe Anatoxal adultes"
+        },
+        {
+          "language": "it-CH",
+          "value": "DiTe Anatoxal adulti"
+        },
+        {
+          "language": "rm-CH",
+          "value": "DiTe Anatoxal persunas creschidas"
+        },
+        {
+          "language": "en-US",
+          "value": "DiTe Anatoxal adults"
+        }
+      ]
+    },
+    {
+      "code": "690",
+      "display": "DiTe Anatoxal N Erwachsene / Adultes",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "DiTe Anatoxal N Erwachsene"
+        },
+        {
+          "language": "fr-CH",
+          "value": "DiTe Anatoxal N adultes"
+        },
+        {
+          "language": "it-CH",
+          "value": "DiTe Anatoxal N adulti"
+        },
+        {
+          "language": "rm-CH",
+          "value": "DiTe Anatoxal N persunas creshidas"
+        },
+        {
+          "language": "en-US",
+          "value": "DiTe Anatoxal N adults"
+        }
+      ]
+    },
+    {
+      "code": "689",
+      "display": "Te Anatoxal N",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Te Anatoxal N"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Te Anatoxal N"
+        },
+        {
+          "language": "it-CH",
+          "value": "Te Anatoxal N"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Te Anatoxal N"
+        },
+        {
+          "language": "en-US",
+          "value": "Te Anatoxal N"
+        }
+      ]
+    },
+    {
+      "code": "62961",
+      "display": "Fluarix Tetra",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Fluarix Tetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Fluarix Tetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "Fluarix Tetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Fluarix Tetra"
+        },
+        {
+          "language": "en-US",
+          "value": "Fluarix Tetra"
+        }
+      ]
+    },
+    {
+      "code": "66037",
+      "display": "Menjugate liquid",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Menjugate liquid"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Menjugate liquid"
+        },
+        {
+          "language": "it-CH",
+          "value": "Menjugate liquid"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Menjugate liquid"
+        },
+        {
+          "language": "en-US",
+          "value": "Menjugate liquid"
+        }
+      ]
+    },
+    {
+      "code": "699",
+      "display": "ProQuad",
+      "definition": "ProQuad, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension, MSD Merck Sharp & Dohme AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "ProQuad"
+        },
+        {
+          "language": "fr-CH",
+          "value": "ProQuad"
+        },
+        {
+          "language": "it-CH",
+          "value": "ProQuad"
+        },
+        {
+          "language": "rm-CH",
+          "value": "ProQuad"
+        },
+        {
+          "language": "en-US",
+          "value": "ProQuad"
+        }
+      ]
+    },
+    {
+      "code": "65387",
+      "display": "Gardasil 9",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Gardasil 9"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Gardasil 9"
+        },
+        {
+          "language": "it-CH",
+          "value": "Gardasil 9"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Gardasil 9"
+        },
+        {
+          "language": "en-US",
+          "value": "Gardasil 9"
+        }
+      ]
+    },
+    {
+      "code": "66940",
+      "display": "Vaxelis",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Vaxelis"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Vaxelis"
+        },
+        {
+          "language": "it-CH",
+          "value": "Vaxelis"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Vaxelis"
+        },
+        {
+          "language": "en-US",
+          "value": "Vaxelis"
+        }
+      ]
+    },
+    {
+      "code": "65730",
+      "display": "Bexsero",
+      "definition": "Bexsero, Injektionssuspension\tGlaxoSmithKline AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Bexsero"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Bexsero"
+        },
+        {
+          "language": "it-CH",
+          "value": "Bexsero"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Bexsero"
+        },
+        {
+          "language": "en-US",
+          "value": "Bexsero"
+        }
+      ]
+    },
+    {
+      "code": "68087",
+      "display": "Influvac Tetra",
+      "definition": "Influvac Tetra 0.5 ml, Injektionssuspension\tMylan Pharma GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Influvac Tetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Influvac Tetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "Influvac Tetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Influvac Tetra"
+        },
+        {
+          "language": "en-US",
+          "value": "Influvac Tetra"
+        }
+      ]
+    },
+    {
+      "code": "66427",
+      "display": "VaxigripTetra",
+      "definition": "VaxigripTetra, Suspension pour injection dans une seringue pré-remplie\tSanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "VaxigripTetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "VaxigripTetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "VaxigripTetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "VaxigripTetra"
+        },
+        {
+          "language": "en-US",
+          "value": "VaxigripTetra"
+        }
+      ]
+    },
+    {
+      "code": "68267",
+      "display": "Spikevax (COVID-19 Vaccine, Moderna)",
+      "definition": "Spikevax, Injektionsdispersion\tModerna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax (COVID-19 Vaccine, Moderna)"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax (COVID-19 Vaccine, Moderna)"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax (COVID-19 Vaccine, Moderna)"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax (COVID-19 Vaccine, Moderna)"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax (COVID-19 Vaccine, Moderna)"
+        }
+      ]
+    },
+    {
+      "code": "68225",
+      "display": "Comirnaty (COVID-19 Vaccine, Pfizer)",
+      "definition": "Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion\tPfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Comirnaty (COVID-19 Vaccine, Pfizer)"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Comirnaty (COVID-19 Vaccine, Pfizer)"
+        },
+        {
+          "language": "it-CH",
+          "value": "Comirnaty (COVID-19 Vaccine, Pfizer)"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Comirnaty (COVID-19 Vaccine, Pfizer)"
+        },
+        {
+          "language": "en-US",
+          "value": "Comirnaty (COVID-19 Vaccine, Pfizer)"
+        }
+      ]
+    },
+    {
+      "code": "68235",
+      "display": "COVID-19 Vaccine Janssen",
+      "definition": "COVID-19 Vaccine Janssen, Injektionssuspension\tJanssen-Cilag AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "COVID-19 Vaccine Janssen"
+        },
+        {
+          "language": "fr-CH",
+          "value": "COVID-19 Vaccine Janssen"
+        },
+        {
+          "language": "it-CH",
+          "value": "COVID-19 Vaccine Janssen"
+        },
+        {
+          "language": "rm-CH",
+          "value": "COVID-19 Vaccine Janssen"
+        },
+        {
+          "language": "en-US",
+          "value": "COVID-19 Vaccine Janssen"
+        }
+      ]
+    },
+    {
+      "code": "67482",
+      "display": "Flucelvax Tetra",
+      "definition": "Flucelvax Tetra, Injektionssuspension\tMedius AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Flucelvax Tetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Flucelvax Tetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "Flucelvax Tetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Flucelvax Tetra"
+        },
+        {
+          "language": "en-US",
+          "value": "Flucelvax Tetra"
+        }
+      ]
+    },
+    {
+      "code": "67704",
+      "display": "Efluelda 0.7 ml",
+      "definition": "Efluelda 0.7 ml, suspension injectable en seringue préremplie\tSanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Efluelda 0.7 ml"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Efluelda 0.7 ml"
+        },
+        {
+          "language": "it-CH",
+          "value": "Efluelda 0.7 ml"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Efluelda 0.7 ml"
+        },
+        {
+          "language": "en-US",
+          "value": "Efluelda 0.7 ml"
+        }
+      ]
+    },
+    {
+      "code": "67987",
+      "display": "Shingrix",
+      "definition": "Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension\tGlaxoSmithKline AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Shingrix"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Shingrix"
+        },
+        {
+          "language": "it-CH",
+          "value": "Shingrix"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Shingrix"
+        },
+        {
+          "language": "en-US",
+          "value": "Shingrix"
+        }
+      ]
+    },
+    {
+      "code": "68003",
+      "display": "Supemtek 0.5 ml",
+      "definition": "Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie\tSanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Supemtek 0.5 ml"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Supemtek 0.5 ml"
+        },
+        {
+          "language": "it-CH",
+          "value": "Supemtek 0.5 ml"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Supemtek 0.5 ml"
+        },
+        {
+          "language": "en-US",
+          "value": "Supemtek 0.5 ml"
+        }
+      ]
+    },
+    {
+      "code": "66161",
+      "display": "Foclivia (Durchstechflasche)",
+      "definition": "Foclivia, Injektionssuspension in einer Durchstechflasche\tEmergent BioSolutions Berna GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Foclivia (Durchstechflasche)"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Foclivia (flacon multidoses)"
+        },
+        {
+          "language": "it-CH",
+          "value": "Foclivia (flacone multidose)"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Foclivia (flacona multidosa)"
+        },
+        {
+          "language": "en-US",
+          "value": "Foclivia (penetration bottle)"
+        }
+      ]
+    },
+    {
+      "code": "66156",
+      "display": "Foclivia (Fertigspritze)",
+      "definition": "Foclivia, Injektionssuspension in einer Fertigspritze\tEmergent BioSolutions Berna GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Foclivia (Fertigspritze)"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Foclivia (seringue préremplie)"
+        },
+        {
+          "language": "it-CH",
+          "value": "Foclivia (siringa preriempita)"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Foclivia (siringa prominenta)"
+        },
+        {
+          "language": "en-US",
+          "value": "Foclivia (pre-filled syringe)"
+        }
+      ]
+    },
+    {
+      "code": "68473",
+      "display": "Nuvaxovid 5 ml",
+      "definition": "Nuvaxovid 5 ml\tFuture Health Pharma GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Nuvaxovid 5 ml"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Nuvaxovid 5 ml"
+        },
+        {
+          "language": "it-CH",
+          "value": "Nuvaxovid 5 ml"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Nuvaxovid 5 ml"
+        },
+        {
+          "language": "en-US",
+          "value": "Nuvaxovid 5 ml"
+        }
+      ]
+    },
+    {
+      "code": "68358",
+      "display": "Ervebo, Injektionslösung",
+      "definition": "Ervebo, Injektionslösung, MSD Merck Sharp & Dohme AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Ervebo"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Ervebo"
+        },
+        {
+          "language": "it-CH",
+          "value": "Ervebo"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Ervebo"
+        },
+        {
+          "language": "en-US",
+          "value": "Ervebo"
+        }
+      ]
+    },
+    {
+      "code": "68710-01",
+      "display": "Comirnaty® 30 Mikrogramm/Dosis",
+      "definition": "Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion für Personen ab 12 Jahren, Pfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Comirnaty® 30 microgrammes/dose, pour les personnes de plus de 12 ans"
+        },
+        {
+          "language": "it-CH",
+          "value": "Comirnaty® 30 microgrammi/dose, per persone di età superiore ai 12 anni"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Comirnaty® 30 microgram/dosa, per persunas sur 12 onns"
+        },
+        {
+          "language": "en-US",
+          "value": "Comirnaty® 30 microgram/dose, for people over 12 years"
+        }
+      ]
+    },
+    {
+      "code": "68710-02",
+      "display": "Comirnaty® 10 Mikrogramm/Dosis",
+      "definition": "Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion, Pfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Comirnaty® 10 Mikrogramm/Dosis"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Comirnaty® 10 microgrammes/dose"
+        },
+        {
+          "language": "it-CH",
+          "value": "Comirnaty® 10 microgrammi/dose"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Comirnaty® 10 Mikrogramm/Dosis"
+        },
+        {
+          "language": "en-US",
+          "value": "Comirnaty® 10 microgram/dosa"
+        }
+      ]
+    },
+    {
+      "code": "68462",
+      "display": "Fluenz Tetra",
+      "definition": "Fluenz Tetra, Nasenspray, Suspension, AstraZeneca AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Fluenz Tetra"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Fluenz Tetra"
+        },
+        {
+          "language": "it-CH",
+          "value": "Fluenz Tetra"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Fluenz Tetra"
+        },
+        {
+          "language": "en-US",
+          "value": "Fluenz Tetra"
+        }
+      ]
+    },
+    {
+      "code": "69009",
+      "display": "Spikevax Bivalent Original / Omicron",
+      "definition": "Spikevax Bivalent Original / Omicron, Moderna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax Bivalent Original / Omicron"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax Bivalent Original / Omicron"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax Bivalent Original / Omicron"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax Bivalent Original / Omicron"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax Bivalent Original / Omicron"
+        }
+      ]
+    },
+    {
+      "code": "68110",
+      "display": "Adacel-Polio 0.5 ml",
+      "definition": "Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Adacel-Polio 0.5 ml"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Adacel-Polio 0.5 ml"
+        },
+        {
+          "language": "it-CH",
+          "value": "Adacel-Polio 0.5 ml"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Adacel-Polio 0.5 ml"
+        },
+        {
+          "language": "en-US",
+          "value": "Adacel-Polio 0.5 ml"
+        }
+      ]
+    },
+    {
+      "code": "68317",
+      "display": "Adacel 0.5 ml",
+      "definition": "Adacel 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Adacel 0.5 ml"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Adacel 0.5 ml"
+        },
+        {
+          "language": "it-CH",
+          "value": "Adacel 0.5 ml"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Adacel 0.5 ml"
+        },
+        {
+          "language": "en-US",
+          "value": "Adacel 0.5 ml"
+        }
+      ]
+    },
+    {
+      "code": "68221",
+      "display": "MenQuadfi",
+      "definition": "MenQuadfi, solution injectable, Sanofi-Aventis (Suisse) SA",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "MenQuadfi"
+        },
+        {
+          "language": "fr-CH",
+          "value": "MenQuadfi"
+        },
+        {
+          "language": "it-CH",
+          "value": "MenQuadfi"
+        },
+        {
+          "language": "rm-CH",
+          "value": "MenQuadfi"
+        },
+        {
+          "language": "en-US",
+          "value": "MenQuadfi"
+        }
+      ]
+    },
+    {
+      "code": "69123",
+      "display": "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze",
+      "definition": "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze, Moderna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax Bivalent Original / Omicron 10 mg/ml, seringue préremplie"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax Bivalent Original / Omicron 10 mg/ml, siringa preriempita"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax Bivalent Original / Omicron 10 mg/ml, squitta finida"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax Bivalent Original / Omicron 10 mg/ml, pre-filled syringe"
+        }
+      ]
+    },
+    {
+      "code": "69010",
+      "display": "Spikevax, Fertigspritze",
+      "definition": "Spikevax, Fertigspritze,\tModerna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax, Fertigspritze"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax, seringue préremplie"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax, siringa preriempita"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax, squitta finida"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax, pre-filled syringe"
+        }
+      ]
+    },
+    {
+      "code": "69047",
+      "display": "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis",
+      "definition": "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis, gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren, Pfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Comirnaty® Original/Omicron BA.1 15/15 µg par dose"
+        },
+        {
+          "language": "it-CH",
+          "value": "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
+        },
+        {
+          "language": "en-US",
+          "value": "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
+        }
+      ]
+    },
+    {
+      "code": "69127",
+      "display": "Comirnaty Original/Omicron BA. 4-5 0.225 mg",
+      "definition": "Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion,\tPfizer AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+        },
+        {
+          "language": "it-CH",
+          "value": "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+        },
+        {
+          "language": "en-US",
+          "value": "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+        }
+      ]
+    },
+    {
+      "code": "69189",
+      "display": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection",
+      "definition": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection,\tModerna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+        }
+      ]
+    },
+    {
+      "code": "69211",
+      "display": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze",
+      "definition": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze,\tModerna Switzerland GmbH",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+        },
+        {
+          "language": "it-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+        },
+        {
+          "language": "en-US",
+          "value": "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "68752",
+      "display": "Vaxneuvance, Injektionssuspension",
+      "definition": "Vaxneuvance, Injektionssuspension,\tMSD Merck Sharp & Dohme AG",
+      "designation": [
+        {
+          "language": "de-CH",
+          "value": "Vaxneuvance, Injektionssuspension"
+        },
+        {
+          "language": "fr-CH",
+          "value": "Vaxneuvance, Injektionssuspension"
+        },
+        {
+          "language": "it-CH",
+          "value": "Vaxneuvance, Injektionssuspension"
+        },
+        {
+          "language": "rm-CH",
+          "value": "Vaxneuvance, Injektionssuspension"
+        },
+        {
+          "language": "en-US",
+          "value": "Vaxneuvance, Injektionssuspension"
+        }
+      ]
+    }
+  ]
+}

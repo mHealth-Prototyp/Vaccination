@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.e-health-suisse.ch/startseite.html",
+    "label": {
+      "de": "eHealth Suisse",
+      "fr": "eHealth Suisse",
+      "it": "eHealth Suisse"
+    }
+  },
+  {
+    "url": "https://www.bfh.ch/de/forschung/forschungsbereiche/institut-medical-informatics-i4mi/",
+    "label": {
+      "de": "BFH Institut für Medizininformatik I4MI",
+      "fr": "BFH Institut d’informatique médicale I4MI",
+      "it": "BFH Istituto per l'informatica medica I4MI"
+    }
+  },
+  {
+    "url": "https://epdplayground.ch/index.php?title=Main_Page",
+    "label": {
+      "de": "EPD Playground",
+      "fr": "EPD Playground",
+      "it": "EPD Playground"
+    }
+  },
+  {
+    "url": "https://www.patientendossier.ch/de",
+    "label": {
+      "de": "Eidgenössisches Patientendossier EPD",
+      "fr": "Dossier éléctronique du patient DEP",
+      "it": "Cartella informatizzata del paziente CIP"
+    }
+  },
+  {
+    "url": "https://fhir.ch/ig/ch-vacd/index.html",
+    "label": {
+      "de": "Implementation Guide CH VACD Austauschformat",
+      "fr": "Implementation Guide CH VACD",
+      "it": "Implementation Guide CH VACD"
+    }
+  }
+]
