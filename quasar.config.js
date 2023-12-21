@@ -8,7 +8,7 @@
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
-const { configure } = require('quasar/wrappers');
+const {configure} = require('quasar/wrappers');
 const path = require('path');
 
 module.exports = configure(function (ctx) {
@@ -61,9 +61,10 @@ module.exports = configure(function (ctx) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: process.env.NODE_ENV === 'production'
-        ? '/Vaccination/' // necessary if you serve app on GitLab pages, corresponds to repository name
-        : '/',
+      publicPath:
+        process.env.NODE_ENV === 'production'
+          ? '/Vaccination/' // necessary if you serve app on GitLab pages, corresponds to repository name
+          : '/',
       // analyze: true,
       env: {
         FHIR_4_CONTENT_TYPE: 'application/fhir+json; fhirVersion=4.0',
