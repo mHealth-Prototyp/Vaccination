@@ -2,7 +2,7 @@
 
 This is a prototype app for demonstrating a vaccination recommendation tool using a rule engine ([stugna-es](https://github.com/m-onyshchuk/stugna#readme)) and resources from the [CH VACD FHIR Implementation Guide](https://fhir.ch/ig/ch-vacd/index.html).
 
-Try out the latest version of this webapp: https://mhealth-prototyp.github.io/Vaccionation/.
+Try out the latest version of this webapp: https://mhealth-prototyp.github.io/Vaccination/.
 Use one of the test users from [chapter 1.1](#1.1-example-users) to log in.
 
 You might also be interested in the [health-professional oriented prototype app](https://github.com/mHealth-Prototyp/Basic-Prototyp), the [patient and allergy oriented prototype app](https://github.com/mHealth-Prototyp/Allergy) and the [questionnaire prototype](https://github.com/mHealth-Prototyp/Questionnaire).
