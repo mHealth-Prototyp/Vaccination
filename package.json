@@ -1,6 +1,6 @@
 {
   "name": "mhealth-proto-vaccination",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A prototype app for demonstrating mHealth use cases on EPD Playground with a rule engine for vaccination recommandations",
   "productName": "mHealth Proto Vaccination",
   "author": "medinf.i4mi@bfh.ch",
