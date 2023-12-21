@@ -73,7 +73,7 @@ module.exports = configure(function (ctx) {
         DEFAULT_TIMEOUT: '20000',
         SOURCE_ENDPOINT: 'http://example.com/patientSource',
         TARGET_ENDPOINT: 'http://example.com/patientEndpoint',
-        IS_2FA_ENABLED: FALSE,
+        IS_2FA_ENABLED: false,
         DEFAULT_RULE_URL: 'https://raw.githubusercontent.com/mHealth-Prototyp/vaccination-rules/main/rules.json'
       },
       // rawDefine: {}
