@@ -1,4 +1,4 @@
-# mHealth Proto FHIR-Questionnaire (mhealth-proto-fhir-questionnaire)
+# mHealth Proto Vaccination
 
 This is a prototype app for demonstrating a vaccination recommendation tool using a rule engine ([stugna-es](https://github.com/m-onyshchuk/stugna#readme)) and resources from the [CH VACD FHIR Implementation Guide](https://fhir.ch/ig/ch-vacd/index.html).
 
