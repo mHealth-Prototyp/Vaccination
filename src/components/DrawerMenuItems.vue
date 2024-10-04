@@ -69,13 +69,17 @@ const q = useQuasar();
 const {t, locale} = useI18n<{message: MessageSchema}, MessageLanguages>();
 const store = useStore();
 
-const langList = import.meta.glob('../../node_modules/quasar/lang/*.mjs');
+const langList = import.meta.glob('../../node_modules/quasar/lang/*.js');
 
 watch(locale, (value) => {
   store.userSettings.language = value as MessageLanguages;
-  langList[`../../node_modules/quasar/lang/${value}.mjs`]().then((lang) => {
-    q.lang.set(lang.default);
-  });
+  try {
+    langList[`../../node_modules/quasar/lang/${value}.js`]().then((lang) => {
+      q.lang.set(lang.default);
+    });
+  } catch (e) {
+    console.warn('Could not load language file to quasar', e);
+  }
 });
 
 const menuEntries = [

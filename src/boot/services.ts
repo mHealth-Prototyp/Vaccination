@@ -4,7 +4,7 @@ import {useStore} from 'src/stores/store';
 import {Ref} from 'vue';
 import {i18n} from './i18n';
 
-const langList = import.meta.glob('../../node_modules/quasar/lang/*.mjs');
+const langList = import.meta.glob('../../node_modules/quasar/lang/*.js');
 
 export default boot(async ({router}) => {
   router.beforeEach((to) => {
@@ -12,9 +12,13 @@ export default boot(async ({router}) => {
 
     (i18n.global.locale as Ref<string>).value = store.userSettings.language;
 
-    langList[`../../node_modules/quasar/lang/${store.userSettings.language}.mjs`]().then((lang) => {
-      Quasar.lang.set(lang.default);
-    });
+    try {
+      langList[`../../node_modules/quasar/lang/${store.userSettings.language}.js`]().then((lang) => {
+        Quasar.lang.set(lang.default);
+      });
+    } catch (e) {
+      console.warn('Could not load language file to quasar', e);
+    }
 
     if (to.meta.requiresAuth && !store.userIsLogged) {
       return {

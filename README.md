@@ -187,6 +187,7 @@ This software is published under a [MIT License](LICENSE).
 
 ## 7 Changelog
 
-| Version | Date       | Changes                                     |
-| ------- | ---------- | ------------------------------------------- |
-| 1.0.0   | 2023-12-21 | Initial version uploaded to this repository |
+| Version | Date       | Changes                                                                                         |
+| ------- | ---------- | ----------------------------------------------------------------------------------------------- |
+| 1.0.1   | 2024-10-04 | Update dependencies, fix a bug with language selection and use new version of component library |
+| 1.0.0   | 2023-12-21 | Initial version uploaded to this repository                                                     |
